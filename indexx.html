@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="assets/icons/favicon.jpg" type="image/x-icon">
+     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- title section -->
+    <title>Penguin Fashion</title>
+    <!-- internal css -->
+    <style>
+        .bebas-neue {
+        font-family: "Bebas Neue", sans-serif;
+        }
+        .roboto {
+        font-family: "Roboto", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#E5E5E5] roboto">
+    <!-- header section -->
+    <header class="bg-amber-50 p-5">
+        <!-- nav section -->
+        <div class="navBar flex flex-col text-center lg:flex-row items-center justify-around  border-b border-lime-200 max-w-7xl m-auto">
+            <div class="logo max-w-full sm:flex flex justify-center lg:justify-start">
+                <img src="assets/icons/logo.png" class=" logo-imag">
+            </div>
+            <div class="navlinks flex flex-col w-full mx-auto  md:flex-row justify-evenly text-stone-800">
+                <a href="#" class="border border-transparent hover:text-lime-300 hover:bg-gray-600 hover:border-lime-300 p-6">Home</a>
+                <a href="#" class="border border-transparent hover:text-lime-300 hover:bg-gray-600 hover:border-lime-300 p-6">About us</a>
+                <a href="#" class="border border-transparent hover:text-lime-300 hover:bg-gray-600 hover:border-lime-300 p-6">Products</a>
+                <a href="#" class="border border-transparent hover:text-lime-300 hover:bg-gray-600 hover:border-lime-300 p-6">Log in</a>
+                <a href="#" class="border border-transparent hover:text-lime-300 hover:bg-gray-600 hover:border-lime-300 p-6">Sign in</a>
+            </div>
+        </div>
+        <!-- banner section -->
+         <div class="banner flex flex-col-reverse lg:flex-row justify-between items-center max-w-7xl mx-auto">
+            <div class="banner-content w-full lg:w-1/2">
+                <h1 class="banner-heading bebas-neue uppercase text-6xl lg:text-7xl font-semibold text-slate-700"><span class="text-yellow-500">Be the Penguins</span><br> of Winter</h1>
+                <p class="hero-description text-slate-900 text-base my-8">
+                    Discover the perfect blend of style and warmth with our exclusive winter collection. Step into the season with confidence and comfort.
+                </p>
+                <button class="bg-gradient-to-bl from-lime-500 to-lime-600
+                px-8 py-4 my-6 rounded-2xl flex items-center text-white font-medium text-lg hover:bg-gradient-to-b hover:shadow-lg
+">
+                    <div><img src="assets/icons/shopping-cart 1.png" class="pr-3 w-12" alt=""></div>
+                    <div><p>Buy Now</p></div>
+                </button>
+            </div>
+            <div class="banner-image  w-full lg:w-1/2 max-w-full">
+                <img src="assets/images/model.png" class="object-cover h-full w-full" alt="banner-model-images">
+            </div>
+         </div>
+    </header>
+    <!-- main section -->
+     <main class="max-w-7xl m-auto">
+        <!-- woman jacket section -->
+        <section class="womanJacket my-3">
+            <!-- Section Heading -->
+            <h2 class="text-3xl lg:text-5xl my-10 text-center sm:mx-0 sm:px-0 lg:text-left lg:ml-7 uppercase font-bold text-gray-800">
+                Women's Jackets Collection
+            </h2>
+            <!-- Optional Subtitle -->
+            <p class="text-center text-lg     lg:text-left lg:ml-7  text-gray-600 mb-8 max-w-4xl mx-auto lg:mx-0">
+                Discover our latest range of stylish and comfortable jackets for women. Perfect for every season, crafted with quality and elegance.
+            </p>
+
+            <div class="womanContainer flex flex-col lg:flex-row justify-evenly">
+            <!-- Jacket 1 -->
+            <div class="womanCart bg-white text-center shadow-md rounded-2xl p-5 max-w-full m-4 lg:m-7">
+            <img src="assets/images/w-jacket-1.png" class="bg-[#f1f1f1] max-w-full mx-auto rounded-3xl p-4" alt="Yellow Coat Jacket">
+            <h4 class="text-2xl font-bold mt-4">Sunshine Yellow Jacket</h4>
+            <p class="text-lg text-gray-600 my-2">
+                A bright and cheerful jacket to make your winter days feel warm. Crafted with soft fleece lining.
+            </p>
+            <div class="flex justify-between items-center mt-6">
+                <div>
+                    <p class="text-4xl text-amber-400 font-semibold">$189</p>
+                </div>
+                <div>
+                    <button class="bg-gradient-to-bl from-lime-500 to-lime-600 px-8 py-4 my-3 rounded-2xl flex items-center text-white font-medium text-lg hover:bg-gradient-to-b hover:shadow-lg">
+                        <img src="assets/icons/shopping-cart 1.png" class="pr-3 w-12" alt="">
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jacket 2 -->
+        <div class="womanCart bg-white text-center shadow-md rounded-2xl p-5 max-w-full m-4 lg:m-7">
+            <img src="assets/images/w-jacket-2.png" class="bg-[#f1f1f1] max-w-full mx-auto rounded-3xl p-4" alt="Orange Winter Jacket">
+            <h4 class="text-2xl font-bold mt-4">Autumn Rust Jacket</h4>
+            <p class="text-lg text-gray-600 my-2">
+                A fashionable choice for the fall season. Durable fabric with a modern cut that complements every outfit.
+            </p>
+            <div class="flex justify-between items-center mt-6">
+                <div>
+                    <p class="text-4xl text-amber-400 font-semibold">$219</p>
+                </div>
+                <div>
+                    <button class="bg-gradient-to-bl from-lime-500 to-lime-600 px-8 py-4 my-3 rounded-2xl flex items-center text-white font-medium text-lg hover:bg-gradient-to-b hover:shadow-lg">
+                        <img src="assets/icons/shopping-cart 1.png" class="pr-3 w-12" alt="">
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jacket 3 -->
+        <div class="womanCart bg-white text-center shadow-md rounded-2xl p-5 max-w-full m-4 lg:m-7">
+            <img src="assets/images/w-jacket-3.png" class="bg-[#f1f1f1] max-w-full mx-auto rounded-3xl p-4" alt="Black Stylish Jacket">
+            <h4 class="text-2xl font-bold mt-4">Midnight Black Jacket</h4>
+            <p class="text-lg text-gray-600 my-2">
+                Stay classy and cozy with this sleek black jacket, designed for evening outings and casual wear.
+            </p>
+            <div class="flex justify-between items-center mt-6">
+                <div>
+                    <p class="text-4xl text-amber-400 font-semibold">$245</p>
+                </div>
+                <div>
+                    <button class="bg-gradient-to-bl from-lime-500 to-lime-600 px-8 py-4 my-3 rounded-2xl flex items-center text-white font-medium text-lg hover:bg-gradient-to-b hover:shadow-lg">
+                        <img src="assets/icons/shopping-cart 1.png" class="pr-3 w-12" alt="">
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+        <!-- men jacket section -->
+        <section class="manJacket my-3">
+    <!-- Section Heading -->
+    <h2 class="text-3xl lg:text-5xl my-10 text-center sm:mx-0 sm:px-0 lg:text-left lg:ml-7 uppercase font-bold text-gray-800">
+        Men's Jackets Collection
+    </h2>
+    <!-- Optional Subtitle -->
+    <p class="text-center text-lg lg:text-left lg:ml-7 text-gray-600 mb-8 max-w-4xl mx-auto lg:mx-0">
+        Explore our premium collection of jackets for men — built for warmth, comfort, and a touch of rugged style. Perfect for every adventure.
+    </p>
+
+    <div class="manContainer flex flex-col lg:flex-row justify-evenly">
+        <!-- Jacket 1 -->
+        <div class="manCart bg-white text-center shadow-md rounded-2xl p-5 max-w-full m-4 lg:m-7">
+            <img src="assets/images/jacket-4.png" class="bg-[#f1f1f1] max-w-full mx-auto rounded-3xl p-4" alt="Brown Leather Jacket">
+            <h4 class="text-2xl font-bold mt-4">Urban Brown Leather</h4>
+            <p class="text-lg text-gray-600 my-2">
+                Premium leather jacket with urban detailing, perfect for casual evenings or motorcycle rides.
+            </p>
+            <div class="flex justify-between items-center mt-6">
+                <div>
+                    <p class="text-4xl text-amber-400 font-semibold">$259</p>
+                </div>
+                <div>
+                    <button class="bg-gradient-to-bl from-lime-500 to-lime-600 px-8 py-4 my-3 rounded-2xl flex items-center text-white font-medium text-lg hover:bg-gradient-to-b hover:shadow-lg">
+                        <img src="assets/icons/shopping-cart 1.png" class="pr-3 w-12" alt="">
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jacket 2 -->
+        <div class="manCart bg-white text-center shadow-md rounded-2xl p-5 max-w-full m-4 lg:m-7">
+            <img src="assets/images/jacket-5.png" class="bg-[#f1f1f1] max-w-full mx-auto rounded-3xl p-4" alt="Grey Winter Jacket">
+            <h4 class="text-2xl font-bold mt-4">Stealth Grey Winter</h4>
+            <p class="text-lg text-gray-600 my-2">
+                A perfect blend of warmth and minimal design — built for harsh winters with style.
+            </p>
+            <div class="flex justify-between items-center mt-6">
+                <div>
+                    <p class="text-4xl text-amber-400 font-semibold">$199</p>
+                </div>
+                <div>
+                    <button class="bg-gradient-to-bl from-lime-500 to-lime-600 px-8 py-4 my-3 rounded-2xl flex items-center text-white font-medium text-lg hover:bg-gradient-to-b hover:shadow-lg">
+                        <img src="assets/icons/shopping-cart 1.png" class="pr-3 w-12" alt="">
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jacket 3 -->
+        <div class="manCart bg-white text-center shadow-md rounded-2xl p-5 max-w-full m-4 lg:m-7">
+            <img src="assets/images/jacket-6.png" class="bg-[#f1f1f1] max-w-full mx-auto rounded-3xl p-4" alt="Black Bomber Jacket">
+            <h4 class="text-2xl font-bold mt-4">Nightfall Bomber</h4>
+            <p class="text-lg text-gray-600 my-2">
+                Sleek bomber jacket with bold design. Ideal for streetwear lovers looking to stay warm and trendy.
+            </p>
+            <div class="flex justify-between items-center mt-6">
+                <div>
+                    <p class="text-4xl text-amber-400 font-semibold">$229</p>
+                </div>
+                <div>
+                    <button class="bg-gradient-to-bl from-lime-500 to-lime-600 px-8 py-4 my-3 rounded-2xl flex items-center text-white font-medium text-lg hover:bg-gradient-to-b hover:shadow-lg">
+                        <img src="assets/icons/shopping-cart 1.png" class="pr-3 w-12" alt="">
+                        <span>Buy Now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+     </main>
+
+    
+</body>
+</html>
